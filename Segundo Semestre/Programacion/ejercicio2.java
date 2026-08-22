@@ -56,6 +56,10 @@ public class ejercicio2 {
                                 usuario.nombre = teclado.nextLine();
                                 System.out.print("Ingrese la nueva edad: ");
                                 usuario.edad = Integer.parseInt(teclado.nextLine());
+                                System.out.print("Ingrese el nuevo sueldo: ");
+                                usuario.sueldo = Float.parseFloat(teclado.nextLine());
+                                System.out.print("Ingrese el nuevo cargo: ");
+                                usuario.cargo = teclado.nextLine();
                                 System.out.println("Usuario editado.");
                                 encontrado = true;
                             }
